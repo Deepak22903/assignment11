@@ -19,11 +19,6 @@ int divide(int a, int b) {
     return a / b;
 }
 
-int modulo(int a, int b) {
-
-    return a % b;
-}
-
 int main() {
     int num1, num2;
     char operation;
@@ -48,9 +43,6 @@ int main() {
             break;
         case '/':
             cout << "Result: " << divide(num1, num2) << endl;
-            break;
-        case '%':
-            cout << "Result: " << modulo(num1, num2) << endl;
             break;
         default:
             cout << "Invalid operation." << endl;
